@@ -1,6 +1,4 @@
 const isPasswordValid = require('../src/auth');
 
-test('Перев?рка вал?дност? пароля', () => {
-    expect(isPasswordValid('password123')).toBe(true); // Вал?дний пароль
-    expect(isPasswordValid('short')).toBe(false); // Занадто короткий пароль
+tewordValid('short')).toBe(false); // тАб┬а┬н┬а┬д├в┬о ┬к┬о├а┬о├в┬к┬и┬й ┬п┬а├а┬о┬л├м
 });
